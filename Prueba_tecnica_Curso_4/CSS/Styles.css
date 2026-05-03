@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Fondo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #25b383;
+    color: #000000;
+}
+
+/* Header */
+.header {
+    background-color: #25b383;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.form {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    gap: 10px;
+}
+/* Input y botón */
+.input-tarea {
+    flex: 10; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Botón añadir */
+.btn-tarea {
+    padding: 10px 15px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-tarea:hover {
+    background-color: #357abd;
+}
+
+/* Lista */
+.lista-tareas {
+    list-style: none;
+    margin-top: 20px;
+}
+
+/* tareas */
+.tareas {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Botones */
+.botones {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start; 
+    gap: 185px;
+}
+.btn-eliminar-complet,
+.btn-eliminar-todas {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-eliminar-complet {
+    background-color: #f5a623;
+    color: white;
+}
+.btn-eliminar-todas {
+    background-color: #d0021b;
+    color: white;
+}
+.btn-eliminar-complet:hover {
+    background-color: #d4881c;
+}
+.btn-eliminar-todas:hover {
+    background-color: #a00115;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #25b383;
+    margin-top: 20px;
+    color: white;
+}
+footer ul{
+    list-style: none;  /* eliminar los puntos */
+  padding: 0;        
+  margin: 0;
+}
